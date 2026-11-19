@@ -464,7 +464,7 @@ services:
       - appwrite
       - fixtures
   webpage:
-    image: nginx:1.30-alpine@sha256:0985e772fb9f729e6fa0980da05fca5d9c468e870eed43071545afa9d2e27d94
+    image: nginx:1.30-alpine@sha256:3bc3836dc0be3b811f238210360bf8e7ca8a2d0effdae46160bf1f3578710051
     container_name: appwrite-webpage
     networks:
       fixtures:
